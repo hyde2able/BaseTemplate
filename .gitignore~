@@ -2,11 +2,6 @@
 logs
 *.log
 
-# SASS
-*.map
-.sass-cache
-*.html~
-
 # Runtime data
 pids
 *.pid
