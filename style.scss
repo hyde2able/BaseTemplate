@@ -1,0 +1,28 @@
+@charset 'utf-8';
+
+body {
+    /* fontはこれに統一する */
+    font-family: Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+    line-height: 1.6em;
+    margin: 0;
+    color: #1a1a1a;
+}
+
+img { vertical-align: bottom;}
+
+/* メディアクエリサンプル */
+@media screen and (min-width: 1281px) {
+  // 画面幅が1281px以上（PC専用スタイル）
+}
+@media screen and (max-width: 1280px) {
+  // 画面幅が1280px以下（タブレット・スマホ共通スタイル）
+}
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  // 画面幅が768px～1280px（タブレット専用スタイル）
+}
+@media screen and (max-width: 767px) {
+  // 画面幅が767px以下（スマートフォン専用スタイル）
+}
+@media screen and (max-width: 414px) {
+  // 画面幅が414px以下（スマートフォン縦向き専用スタイル）
+}
